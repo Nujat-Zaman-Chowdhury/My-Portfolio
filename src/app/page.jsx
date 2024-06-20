@@ -42,7 +42,7 @@ const HomePage = () => {
           
 
           >
-          Hi, <br /> I'm{" "}
+          Hi, <br />  I&apos;m{" "}
           <span className="text-primary">Nujat Zaman Chowdhury</span> <br />{" "}
             <span className="text-primary">a</span> Web Developer
           </h1>
@@ -54,7 +54,7 @@ const HomePage = () => {
           </p>
           <div className="flex gap-3 w-full items-start my-4">
             <Link className="flex items-center gap-2 text-lg text-light bg-dark  dark:bg-light dark:text-dark p-3 rounded-lg hover:bg-light hover:text-dark" download={true} href="/Resume.pdf" target={"_blank"}>Resume <FiDownload className="text-primary"/></Link>
-            <Link className="flex items-center gap-2 text-lg text-light bg-dark dark:bg-light dark:text-dark p-3 rounded-lg hover:bg-light hover:text-dark" href="mailto: 'nujattazin@gmail.com'" target={"_blank"}>Contact</Link>
+            <Link className="flex items-center gap-2 text-lg text-light bg-dark dark:bg-light dark:text-dark p-3 rounded-lg hover:bg-light hover:text-dark" href="mailto: &apos;nujattazin@gmail.com&apos;" target={"_blank"}>Contact</Link>
         </div>
         </motion.div>
         
