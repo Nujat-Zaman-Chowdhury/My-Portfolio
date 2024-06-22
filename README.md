@@ -1,4 +1,4 @@
-My Portfolio - (https://my-portfolio-deploy-dq6fh9tc8-nujats-projects.vercel.app)
+My Portfolio -[https://my-portfolio-deploy-dq6fh9tc8-nujats-projects.vercel.app]
 <br>
 This is a Next.js project bootstrapped with create-next-app.
 
