@@ -21,12 +21,13 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 1.2, duration: 0.3, ease: "easeInOut" },
           }}
-          className="w-[268px] h-[268px]  xl:w-[498px] xl:h-[498px]  absolute flex justify-center items-center"
+          className="w-[268px] h-[268px]  lg:w-[498px] lg:h-[498px]  absolute flex justify-center items-center"
         >
           <Image
             src={profilePic}
             alt="Nujat"
             priority
+            sizes="(max-width: 298px) , (max-width: 1200px) 498px"
             quality={100}
             fill
             className="profile object-contain rounded-full"

@@ -38,7 +38,7 @@ const HomePage = () => {
         variants={quote}
         initial="initial"
         animate="animate">
-          <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold leading-snug text-[#1e2125] dark:text-light"
+          <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e2125] dark:text-light"
           
 
           >
